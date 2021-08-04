@@ -42,6 +42,11 @@ In KSpaceDuel each of two possible players control a satellite
 spaceship orbiting the sun. As the game progresses players have to
 eliminate the opponent's spacecraft with bullets or mines.
 
+%description -l pl.UTF-8
+W KSpaceDuelu każdy z dwóch możliwych graczy kontroluje statek
+kosmiczny orbitujący wokół słońca. W czasie trwania gry gracze
+muszą eliminować statki rywala używając pocisków lub min.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 

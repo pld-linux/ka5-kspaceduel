@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	22.04.0
+%define		kdeappsver	22.04.1
 %define		kframever	5.56.0
 %define		qtver		5.9.0
 %define		kaname		kspaceduel
 Summary:	kspaceduel
 Name:		ka5-%{kaname}
-Version:	22.04.0
+Version:	22.04.1
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications/Games
 Source0:	http://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	cc96c54ee2c339b6a900b55cd391069c
+# Source0-md5:	5917caf83b16062a902d0f3c13b3b1bc
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Gui-devel >= 5.11.1
